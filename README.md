@@ -33,7 +33,12 @@ This repo contains the list of questions and answers commonly asked in interview
    * Whatever is written within an HTML tag are HTML elements.
 
 5. **What are the various heading tags and their importance?**
-   * There are 6 levels of headings defined by HTML. These six heading elements are H1, H2, H3, H4, H5, and H6; with H1 being at the highest level and H6 at the least.
+   * There are 6 levels of headings defined by HTML. 
+   * These six heading elements are H1, H2, H3, H4, H5, and H6
+   * With H1 being at the highest level and H6 at the least.
+
+6. **How to redirect to a particular section of a page using HTML?**
+   * One can use the anchor tag to redirect to a particular section on the same page.
 
 
 ## CSS
