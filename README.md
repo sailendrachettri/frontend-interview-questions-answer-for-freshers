@@ -1,11 +1,19 @@
 # Frontend Interview Question and Answers
 This repo contains the list of questions and answers commonly asked in interviews
 
+## Categories
+
+- ### [HyperText Markup Language(HTML)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#html)
+- ### [Cascading Style Sheets(CSS)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#css)
+- ### [Object Oriented Programming(OOP)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#oops)
+- ### [JavaScript(Js)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#javascript)
+
+
 ## HTML
 1. **What is HTML?**
    * HTML stands for HyperText Markup Language. 
    * It is used to design web pages using a markup language. 
-   * HTML is a combination of Hypertext and Markup language.
+   * HTML is a combination of Hypertext and Markup language. 
    * Hypertext defines the link between the web pages. 
    * The markup language is used to define the text document within the tag which defines the structure of web pages.
 
