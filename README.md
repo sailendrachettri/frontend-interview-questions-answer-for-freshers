@@ -20,6 +20,22 @@ This repo contains the list of questions and answers commonly asked in interview
 3. **What is !DOCTYPE?**
    * The doctype is not an element or tag, it lets the browser know about the version of or standard of HTML
 
+4. **Difference between HTML Tag & HTML Element**
+
+   **HTML Tag**
+   * Either opening or closing is used to mark the start or end of an element.
+   * Used to hold the HTML element.
+   * Starts with < and ends with >
+
+   **HTML Element**
+   * Collection of a start tag, end tag, and its attributes.
+   * Holds the content.
+   * Whatever is written within an HTML tag are HTML elements.
+
+5. **What are the various heading tags and their importance?**
+   * There are 6 levels of headings defined by HTML. These six heading elements are H1, H2, H3, H4, H5, and H6; with H1 being at the highest level and H6 at the least.
+
+
 ## CSS
 - work in progress
 
