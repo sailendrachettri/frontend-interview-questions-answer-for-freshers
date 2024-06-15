@@ -2,7 +2,23 @@
 This repo contains the list of questions and answers commonly asked in interviews
 
 ## HTML
-- work in progress
+1. **What is HTML?**
+   * HTML stands for HyperText Markup Language. 
+   * It is used to design web pages using a markup language. 
+   * HTML is a combination of Hypertext and Markup language.
+   * Hypertext defines the link between the web pages. 
+   * The markup language is used to define the text document within the tag which defines the structure of web pages.
+
+2. **What are the various markup languages available?**
+   * HTML: Hypertext Markup Language
+   * KML: Key whole Markup Language
+   * MathML: Mathematical Markup Language
+   * SGML: Standard Generalized Markup Language
+   * XHTML: eXtensible Hypertext Markup Language
+   * XML: eXtensible Markup Language
+
+3. **What is !DOCTYPE?**
+   * The doctype is not an element or tag, it lets the browser know about the version of or standard of HTML
 
 ## CSS
 - work in progress
