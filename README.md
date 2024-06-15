@@ -40,6 +40,22 @@ This repo contains the list of questions and answers commonly asked in interview
 6. **How to redirect to a particular section of a page using HTML?**
    * One can use the anchor tag to redirect to a particular section on the same page.
 
+7. **What are attributes?**
+   * An attribute is used to provide extra or additional information about an element.
+
+8. **What is the use of alt attribute in images?**
+   * The img alt attribute is used to specify the alternate text for an image.
+
+9. **What are the different types of lists in HTML?**
+   * Unordered List: It will list the items using plain bullets.
+   * Ordered List: It will use different schemes of numbers to list your items.
+   * Definition List: It arranges your items in the same way as they are arranged in a dictionary.
+
+10. **What is the difference between block and inline elements?**
+   * Block level elements would create a new line of content, stacking on top
+of one anther.
+   * Inline elements stay within the flow of what surrounds them.
+
 
 ## CSS
 - work in progress
