@@ -73,7 +73,18 @@ of one anther.
 2. **What is the current version of CSS?**
    * CSS3 is the latest version of CSS.
 
+3. **List any three CSS Frameworks.**
+   * Bootstrap
+   * Materialize
+   * Tailwind CSS
+
 ## OOPs
+- work in progress
+
+## SQL
+- work in progress
+
+## noSQL
 - work in progress
 
 ## JavaScript
