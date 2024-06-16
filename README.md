@@ -7,9 +7,11 @@ This repo contains the list of questions and answers commonly asked in interview
 - ### [Cascading Style Sheets(CSS)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#css)
 - ### [Object Oriented Programming(OOP)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#oops)
 
-- ### [Structured Query Language](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#sql)
+- ### [Structured Query Language(SQL)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#sql)
 
-- ### [non-Structured Query Language](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#nosql)
+- ### [non-Structured Query Language(noSQL)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#nosql)
+
+- ### [Git and Github]()
 
 - ### [JavaScript(Js) Programming Language](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#javascript)
 
@@ -83,6 +85,21 @@ of one anther.
    * Materialize
    * Tailwind CSS
 
+4. **In how many ways can we add CSS to our HTML file?**
+   * In Three ways we can add CSS in our HTML file
+   * Inline CSS: This kind of style is specified within an HTML tag using the style attribute.
+   * Internal or Embedded CSS: the CSS is embedded within the HTML file.
+   * External CSS: written in a separate file with .css extension
+
+5. **Which type of CSS holds the highest priority?**
+   * Inline CSS has the highest priority
+
+6. **What are CSS Selectors?**
+   * CSS Selectors are used to selecting HTML elements based on their element name, id, attributes, class name, etc. It can select one or more elements simultaneously.
+
+7. **What does the ‘a’ in rgba mean?**
+   * RGBA contains A (Alpha) which specifies the transparency of elements. 
+
 ## OOPs
 - work in progress
 
@@ -90,6 +107,9 @@ of one anther.
 - work in progress
 
 ## noSQL
+- work in progress
+
+## Git and Github
 - work in progress
 
 ## JavaScript
