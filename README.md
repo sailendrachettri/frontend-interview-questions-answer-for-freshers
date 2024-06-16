@@ -66,7 +66,12 @@ of one anther.
 
 
 ## CSS
-- work in progress
+1. **What is CSS?**
+   * It stands for *Cascading Style Sheets*
+   * CSS allows you to apply styles to web pages.
+
+2. **What is the current version of CSS?**
+   * CSS3 is the latest version of CSS.
 
 ## OOPs
 - work in progress
