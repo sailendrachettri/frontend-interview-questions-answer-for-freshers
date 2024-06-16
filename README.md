@@ -6,7 +6,12 @@ This repo contains the list of questions and answers commonly asked in interview
 - ### [HyperText Markup Language(HTML)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#html)
 - ### [Cascading Style Sheets(CSS)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#css)
 - ### [Object Oriented Programming(OOP)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#oops)
-- ### [JavaScript(Js)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#javascript)
+
+- ### [Structured Query Language](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#sql)
+
+- ### [non-Structured Query Language](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#nosql)
+
+- ### [JavaScript(Js) Programming Language](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#javascript)
 
 
 ## HTML
