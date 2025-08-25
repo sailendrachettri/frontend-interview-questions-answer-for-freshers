@@ -26,7 +26,9 @@ This repo contains the list of questions and answers commonly asked in interview
 2. **Waht are the advanteges of .NET core over .NET framework?**
    * Cross-platform → Runs on Windows, Linux, and macOS (but .NET Framework is Windows-only).
    * It is modular and lightweight – applications can include only the required packages (via NuGet).
-   * .NET core support containerized deployment (Docker )
+   * .NET core support containerized deployment (Docker)
+   * .NET core is free and open-source but .NET framework is paid
+   * .NET core Support multiple IDE but .NET framework supports only Visual Studio 
 
 ## HTML
 1. **What is HTML?**
