@@ -7,7 +7,8 @@ This repo contains the list of questions and answers commonly asked in interview
 - ### [Cascading Style Sheets(CSS)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#css)
 - ### [Object Oriented Programming(OOP)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#oops)
 
-- ### [Structured Query Language(SQL)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#sql)
+- ### [Structured Query Lang
+1. **What is .NET Core?**uage(SQL)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#sql)
 
 - ### [non-Structured Query Language(noSQL)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#nosql)
 
@@ -15,6 +16,17 @@ This repo contains the list of questions and answers commonly asked in interview
 
 - ### [JavaScript(Js) Programming Language](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#javascript)
 
+
+## .NET 
+1. **What is .NET Core?**
+   * It is a free and open-source framework developed by Microsoft.
+   * It is cross-platform – runs on Windows, Linux, and macOS.
+   
+
+2. **Waht are the advanteges of .NET core over .NET framework?**
+   * Cross-platform → Runs on Windows, Linux, and macOS (but .NET Framework is Windows-only).
+   * It is modular and lightweight – applications can include only the required packages (via NuGet).
+   * .NET core support containerized deployment (Docker )
 
 ## HTML
 1. **What is HTML?**
