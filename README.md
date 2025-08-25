@@ -30,6 +30,13 @@ This repo contains the list of questions and answers commonly asked in interview
    * .NET core is free and open-source but .NET framework is paid
    * .NET core Support multiple IDE but .NET framework supports only Visual Studio 
 
+3. **What is the role of Program.cs file in ASP.NET Core**
+   * It contains the application startup code
+
+4. **What is Dependency Injection in ASP.NET core**
+   * It is software design pattern
+   * It allows use to develop loosely coupled application.
+
 ## HTML
 1. **What is HTML?**
    * HTML stands for HyperText Markup Language. 
