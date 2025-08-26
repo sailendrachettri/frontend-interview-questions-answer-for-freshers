@@ -18,6 +18,23 @@ This repo contains the list of questions and answers commonly asked in interview
 
 
 ## .NET 
+
+| **Term**   | **Full Form**                     | **Meaning (1 line)** |
+|------------|-----------------------------------|-----------------------|
+| ASP        | Active Server Pages               | Microsoft’s old server-side scripting technology. |
+| .NET       | Network Enabled Technologies      | Framework for building apps on Windows (web, desktop, mobile). |
+| ASP.NET    | Active Server Pages .NET          | Web framework built on top of .NET. |
+| MVC        | Model View Controller             | Design pattern separating business logic, UI, and input control. |
+| WCF        | Windows Communication Foundation  | Framework for building service-oriented applications. |
+| WPF        | Windows Presentation Foundation   | UI framework for building Windows desktop applications. |
+| ADO.NET    | ActiveX Data Objects .NET         | Data access framework to interact with databases. |
+| CLR        | Common Language Runtime           | Runtime environment for executing .NET programs. |
+| CLS        | Common Language Specification     | Rules to ensure cross-language interoperability in .NET. |
+| CTS        | Common Type System                | Defines how types are declared and used in .NET. |
+| DTO        | Data Transfer Object              | Simple object used to transfer data between layers without business logic. |
+| EF         | Entity Framework                  | Object-relational mapper (ORM) for database operations in .NET. |
+
+
 1. **What is .NET Core?**
    * It is a free and open-source framework developed by Microsoft.
    * It is cross-platform – runs on Windows, Linux, and macOS.
@@ -36,7 +53,6 @@ This repo contains the list of questions and answers commonly asked in interview
 4. **What is Dependency Injection in ASP.NET core**
    * It is software design pattern
    * It allows use to develop loosely coupled application.
-
 
 ## HTML
 1. **What is HTML?**
