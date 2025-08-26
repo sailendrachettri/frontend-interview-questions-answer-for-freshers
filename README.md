@@ -3,24 +3,24 @@ This repo contains the list of questions and answers commonly asked in interview
 
 ## Categories
 
-- ### [HyperText Markup Language(HTML)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#html)
-- ### [Cascading Style Sheets(CSS)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#css)
-- ### [Object Oriented Programming(OOP)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#oops)
+- ### [HyperText Markup Language(HTML)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#html)
+- ### [Cascading Style Sheets(CSS)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#css)
+- ### [Object Oriented Programming(OOP)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#oops)
 
-- ### [Structured Query Lang
-1. **What is .NET Core?**uage(SQL)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#sql)
+- ### [Structured Query Language(SQL)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#sql)
 
-- ### [non-Structured Query Language(noSQL)](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#nosql)
+- ### [non-Structured Query Language(noSQL)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#nosql)
 
 - ### [Git and Github]()
 
-- ### [JavaScript(Js) Programming Language](https://github.com/sailendrachettri/frontend-interview-questions-answer-for-freshers?tab=readme-ov-file#javascript)
+- ### [JavaScript(Js) Programming Language](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#javascript)
 
 
 ## .NET 
 1. **What is .NET Core?**
    * It is a free and open-source framework developed by Microsoft.
    * It is cross-platform – runs on Windows, Linux, and macOS.
+   
 
 2. **Waht are the advanteges of .NET core over .NET framework?**
    * Cross-platform → Runs on Windows, Linux, and macOS (but .NET Framework is Windows-only).
