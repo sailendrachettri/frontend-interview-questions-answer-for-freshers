@@ -21,7 +21,6 @@ This repo contains the list of questions and answers commonly asked in interview
 1. **What is .NET Core?**
    * It is a free and open-source framework developed by Microsoft.
    * It is cross-platform – runs on Windows, Linux, and macOS.
-   
 
 2. **Waht are the advanteges of .NET core over .NET framework?**
    * Cross-platform → Runs on Windows, Linux, and macOS (but .NET Framework is Windows-only).
@@ -36,6 +35,7 @@ This repo contains the list of questions and answers commonly asked in interview
 4. **What is Dependency Injection in ASP.NET core**
    * It is software design pattern
    * It allows use to develop loosely coupled application.
+
 
 ## HTML
 1. **What is HTML?**
@@ -91,6 +91,17 @@ This repo contains the list of questions and answers commonly asked in interview
    * Block level elements would create a new line of content, stacking on top
 of one anther.
    * Inline elements stay within the flow of what surrounds them.
+
+11. **Difference between DOM & HTML?**
+   * HTML: Markup language (what we write).
+   * DOM: Object model (what browser creates).
+   * HTML is static, DOM is dynamic.
+   * DOM can be modified with JavaScript, HTML cannot.
+
+12. **What is DOM?**
+   * DOM = Document Object Model.
+   * It is a tree-like structure of an HTML page created by the browser.
+   * JavaScript uses DOM to read, add, update, or delete elements on a webpage.
 
 
 ## CSS
