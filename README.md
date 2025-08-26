@@ -3,6 +3,7 @@ This repo contains the list of questions and answers commonly asked in interview
 
 ## Categories
 
+- ### [.NET](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#netl)
 - ### [HyperText Markup Language(HTML)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#html)
 - ### [Cascading Style Sheets(CSS)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#css)
 - ### [Object Oriented Programming(OOP)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#oops)
