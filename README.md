@@ -11,13 +11,10 @@ This repo contains the list of questions and answers commonly asked in interview
 - ### [HyperText Markup Language(HTML)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#html)
 - ### [Cascading Style Sheets(CSS)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#css)
 - ### [Object Oriented Programming(OOP)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#oops)
-- ### [RDBMS & DBMS] ()
+- ### [RDBMS & DBMS](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#rdbms--dbms)
 - ### [Structured Query Language(SQL)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#sql)
-
 - ### [non-Structured Query Language(noSQL)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#nosql)
-
-- ### [Git and Github]()
-
+- ### [Git and Github](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#git-and-github-1)
 - ### [JavaScript(Js) Programming Language](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#javascript)
 
 <!-- 
