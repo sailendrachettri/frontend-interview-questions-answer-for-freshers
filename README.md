@@ -1,3 +1,7 @@
+<!-- 
+font: http://patorjk.com/software/taag/
+ -->
+
 # Frontend Interview Question and Answers
 This repo contains the list of questions and answers commonly asked in interviews
 
@@ -7,7 +11,7 @@ This repo contains the list of questions and answers commonly asked in interview
 - ### [HyperText Markup Language(HTML)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#html)
 - ### [Cascading Style Sheets(CSS)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#css)
 - ### [Object Oriented Programming(OOP)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#oops)
-
+- ### [RDBMS & DBMS] ()
 - ### [Structured Query Language(SQL)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#sql)
 
 - ### [non-Structured Query Language(noSQL)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#nosql)
@@ -16,6 +20,14 @@ This repo contains the list of questions and answers commonly asked in interview
 
 - ### [JavaScript(Js) Programming Language](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#javascript)
 
+<!-- 
+_____   ____ _______   _   _ ______ _______ 
+|  __ \ / __ |__   __| | \ | |  ____|__   __|
+| |  | | |  | | | |    |  \| | |__     | |   
+| |  | | |  | | | |    | . ` |  __|    | |   
+| |__| | |__| | | |    | |\  | |____   | |   
+|_____/ \____/  |_|    |_| \_|______|  |_|  
+-->                                        
 
 ## .NET 
 
@@ -54,6 +66,16 @@ This repo contains the list of questions and answers commonly asked in interview
    * It is software design pattern
    * It allows use to develop loosely coupled application.
 
+<!-- 
+  _    _ _______ __  __ _      
+ | |  | |__   __|  \/  | |     
+ | |__| |  | |  | \  / | |     
+ |  __  |  | |  | |\/| | |     
+ | |  | |  | |  | |  | | |____ 
+ |_|  |_|  |_|  |_|  |_|______|
+
+-->                            
+                               
 ## HTML
 1. **What is HTML?**
    * HTML stands for HyperText Markup Language. 
@@ -120,7 +142,16 @@ of one anther.
    * It is a tree-like structure of an HTML page created by the browser.
    * JavaScript uses DOM to read, add, update, or delete elements on a webpage.
 
-
+<!-- 
+   _____  _____ _____ 
+  / ____|/ ____/ ____|
+ | |    | (___| (___  
+ | |     \___ \\___ \ 
+ | |____ ____) ____) |
+  \_____|_____|_____/ 
+                      
+                      
+ -->
 ## CSS
 1. **What is CSS?**
    * It stands for *Cascading Style Sheets*
@@ -149,18 +180,85 @@ of one anther.
 7. **What does the ‘a’ in rgba mean?**
    * RGBA contains A (Alpha) which specifies the transparency of elements. 
 
+<!-- 
+   ____   ____  _____   _____ 
+  / __ \ / __ \|  __ \ / ____|
+ | |  | | |  | | |__) | (___  
+ | |  | | |  | |  ___/ \___ \ 
+ | |__| | |__| | |     ____) |
+  \____/ \____/|_|    |_____/ 
+                              
+                              
+ -->
 ## OOPs
 - work in progress
 
+<!-- 
+  _____  _____  ____  __  __  _____            _____  ____  __  __  _____ 
+ |  __ \|  __ \|  _ \|  \/  |/ ____|   ___    |  __ \|  _ \|  \/  |/ ____|
+ | |__) | |  | | |_) | \  / | (___    ( _ )   | |  | | |_) | \  / | (___  
+ |  _  /| |  | |  _ <| |\/| |\___ \   / _ \/\ | |  | |  _ <| |\/| |\___ \ 
+ | | \ \| |__| | |_) | |  | |____) | | (_>  < | |__| | |_) | |  | |____) |
+ |_|  \_|_____/|____/|_|  |_|_____/   \___/\/ |_____/|____/|_|  |_|_____/ 
+                                                                          
+                                                                          
+ -->
+ ## RDBMS & DBMS
+ - work on progress
+
+<!-- 
+
+   _____  ____  _      
+  / ____|/ __ \| |     
+ | (___ | |  | | |     
+  \___ \| |  | | |     
+  ____) | |__| | |____ 
+ |_____/ \___\_|______|
+                       
+                       
+ -->
 ## SQL
 - work in progress
 
+<!-- 
+
+  _   _  ____     _____  ____  _      
+ | \ | |/ __ \   / ____|/ __ \| |     
+ |  \| | |  | | | (___ | |  | | |     
+ | . ` | |  | |  \___ \| |  | | |     
+ | |\  | |__| |  ____) | |__| | |____ 
+ |_| \_|\____/  |_____/ \___\_|______|
+                                      
+
+ -->
 ## noSQL
 - work in progress
 
+<!-- 
+
+   _____ _____ _______ 
+  / ____|_   _|__   __|
+ | |  __  | |    | |   
+ | | |_ | | |    | |   
+ | |__| |_| |_   | |   
+  \_____|_____|  |_|   
+                       
+                       
+ -->
 ## Git and Github
 - work in progress
 
+
+<!-- 
+       _    __      __      _____  _____ _____  _____ _____ _______ 
+      | |  /\ \    / /\    / ____|/ ____|  __ \|_   _|  __ |__   __|
+      | | /  \ \  / /  \  | (___ | |    | |__) | | | | |__) | | |   
+  _   | |/ /\ \ \/ / /\ \  \___ \| |    |  _  /  | | |  ___/  | |   
+ | |__| / ____ \  / ____ \ ____) | |____| | \ \ _| |_| |      | |   
+  \____/_/    \_\/_/    \_|_____/ \_____|_|  \_|_____|_|      |_|   
+                                                                    
+                                                                  
+ -->
 ## JavaScript
 
 1. **Block Scope vs Local Scope**
