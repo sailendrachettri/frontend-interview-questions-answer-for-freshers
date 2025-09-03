@@ -297,3 +297,21 @@ of one anther.
    * but `let, const` will go to *Temporal Dead Zone* so *we'll get error*
    * JavaScript only hoists declarations, not initializations.
    * function expression and class expression will **NOT** be hoisted
+
+8. **What is JSON?**
+   * JavaScript Object Notation
+   * It is  a lightweight  data interchange format (between client and server using api).
+   * It consist  of key-value pairs
+
+9. **Data Types in JavaScript**
+   * Primitive: It stores the single value (number, string, boolean, undefine, null)
+   * Non-Primitive: It holds multiple values (array, object, functions)
+
+10. **Difference between null and undefine**
+   * undefined: Variable is declared but not assigned any value.
+   * null:  Variable is assigned with "no value" (intentional empty value).
+   * null == undefined → true (loose equality).
+   * null === undefined → false (strict equality).
+11. **What is operator precedence?**
+   * As per the operator precedence, operator with *higher* precedence are evaluated first.
+   * It is like a BODMAS rule in maths
