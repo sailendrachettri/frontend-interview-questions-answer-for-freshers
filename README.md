@@ -1,5 +1,7 @@
 <!-- 
 font: http://patorjk.com/software/taag/
+
+Big type
  -->
 
 # Frontend Interview Question and Answers
@@ -7,6 +9,7 @@ This repo contains the list of questions and answers commonly asked in interview
 
 ## Categories
 
+- ### [ReactJS]()
 - ### [.NET](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#netl)
 - ### [HyperText Markup Language(HTML)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#html)
 - ### [Cascading Style Sheets(CSS)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#css)
@@ -16,6 +19,47 @@ This repo contains the list of questions and answers commonly asked in interview
 - ### [non-Structured Query Language(noSQL)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#nosql)
 - ### [Git and Github](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#git-and-github-1)
 - ### [JavaScript(Js) Programming Language](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#javascript)
+
+
+<!-- 
+  _____                 _       _  _____ 
+ |  __ \               | |     | |/ ____|
+ | |__) |___  __ _  ___| |_    | | (___  
+ |  _  // _ \/ _` |/ __| __|   | |\___ \ 
+ | | \ \  __/ (_| | (__| || |__| |____) |
+ |_|  \_\___|\__,_|\___|\__\____/|_____/ 
+                                         
+                                         
+ -->
+
+ ## ReactJS
+
+ 1. **What is ReactJS?**
+   * It is a open-source javascript Library.
+   * It is used to create `Single Page Application` by using reusable components.
+
+2. **What are the key feature of the ReactJS?**
+   * Virtual DOM
+   * React Hooks
+   * Reusable Components
+
+3. **What is state in ReactJS?**
+   * State is a built-in object used to store dynamic data in a component.
+   * It allows components to re-render automatically when the data changes.
+
+4. **What is Virtual DOM?**
+   * Virtual DOM is a copy of the real DOM.
+   * When the state changes, React updates the Virtual DOM first, compares it with the previous one, and then makes the necessary changes in the real DOM.
+   * This process leads to faster and more efficient performance.
+
+5. **What are the advantages of ReactJS?**
+   * Simple to build SPA by using components.
+   * It is open source library
+   * It is very fast and lightwighted (Virtual DOM)
+
+6. **What are the disadvantages of ReactJS?**
+   * ReactJS is NOT good choice for very small and static application
+
 
 <!-- 
 _____   ____ _______   _   _ ______ _______ 
