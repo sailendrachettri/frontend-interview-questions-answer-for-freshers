@@ -34,31 +34,604 @@ This repo contains the list of questions and answers commonly asked in interview
 
  ## ReactJS
 
- 1. **What is ReactJS?**
-   * It is a open-source javascript Library.
-   * It is used to create `Single Page Application` by using reusable components.
+1. **What is ReactJS?**
 
-2. **What are the key feature of the ReactJS?**
-   * Virtual DOM
-   * React Hooks
-   * Reusable Components
+   * It is an open-source JavaScript library.
+   * It is used to build `Single Page Applications` using reusable components.
+   * Maintained by Meta (Facebook).
+
+2. **What are the key features of ReactJS?**
+
+   * Virtual DOM.
+   * React Hooks.
+   * Reusable Components.
 
 3. **What is state in ReactJS?**
+
    * State is a built-in object used to store dynamic data in a component.
    * It allows components to re-render automatically when the data changes.
+   * Managed internally by the component.
 
 4. **What is Virtual DOM?**
+
    * Virtual DOM is a copy of the real DOM.
    * When the state changes, React updates the Virtual DOM first, compares it with the previous one, and then makes the necessary changes in the real DOM.
    * This process leads to faster and more efficient performance.
 
 5. **What are the advantages of ReactJS?**
+
    * Simple to build SPA by using components.
-   * It is open source library
-   * It is very fast and lightwighted (Virtual DOM)
+   * It is open-source and backed by Meta.
+   * Very fast and lightweight (Virtual DOM).
 
 6. **What are the disadvantages of ReactJS?**
-   * ReactJS is NOT good choice for very small and static application
+
+   * Not good for very small and static applications.
+   * Steeper learning curve (JSX, Hooks).
+   * Requires integration with other libraries for full-stack development.
+
+7. **What are props in ReactJS?**
+
+   * Props are inputs passed to a component from its parent.
+   * They are read-only and immutable.
+   * Help make components reusable.
+
+8. **What is the difference between state and props?**
+
+   * State is local and mutable; Props are external and immutable.
+   * State is managed inside the component; Props are passed by parent.
+   * State changes trigger re-renders, props reflect parent updates.
+
+9. **What is JSX in ReactJS?**
+
+   * JSX stands for JavaScript XML.
+   * It allows writing HTML inside JavaScript.
+   * Transpiled into `React.createElement()` calls.
+
+10. **Why use JSX instead of plain JavaScript?**
+
+    * Makes code more readable and declarative.
+    * Allows embedding JavaScript expressions inside UI code.
+    * Improves development productivity.
+
+11. **What are functional components?**
+
+    * Functions that return JSX.
+    * Use hooks for state and lifecycle.
+    * Easier to write and maintain.
+
+12. **What are class components?**
+
+    * ES6 classes extending `React.Component`.
+    * Use `this.state` and lifecycle methods.
+    * Older approach before hooks.
+
+13. **What are controlled components?**
+
+    * Form elements controlled by React state.
+    * Value comes from `state`.
+    * Ensures React fully controls input changes.
+
+14. **What are uncontrolled components?**
+
+    * Form elements controlled by the DOM itself.
+    * Accessed via `refs`.
+    * Simpler but less React-friendly.
+
+15. **What is React Router?**
+
+    * Standard library for routing in React apps.
+    * Provides `BrowserRouter`, `Routes`, and `Route`.
+    * Enables navigation without reloading.
+
+16. **What is SPA (Single Page Application)?**
+
+    * Application that loads a single HTML file.
+    * Updates views dynamically using JavaScript.
+    * No full-page reloads required.
+
+17. **What is useEffect hook?**
+
+    * Used for side effects (API calls, subscriptions).
+    * Runs after render by default.
+    * Supports cleanup via return function.
+
+18. **What is useState hook?**
+
+    * Hook for declaring state in functional components.
+    * Returns state variable and updater function.
+    * Triggers re-render on update.
+
+19. **What is useContext hook?**
+
+    * Access context values without prop drilling.
+    * Works with `React.createContext()`.
+    * Provides global state management.
+
+20. **What is useRef hook?**
+
+    * Stores mutable values across renders.
+    * Can reference DOM elements directly.
+    * Does not trigger re-renders.
+
+21. **What is useMemo hook?**
+
+    * Caches computed values.
+    * Prevents expensive recalculations.
+    * Optimizes performance.
+
+22. **What is useCallback hook?**
+
+    * Returns memoized callback function.
+    * Prevents unnecessary re-creations.
+    * Useful in child components with `React.memo`.
+
+23. **What is React.memo?**
+
+    * Higher-order component for memoization.
+    * Prevents unnecessary re-renders.
+    * Compares props before re-rendering.
+
+24. **What is key in React lists?**
+
+    * Unique identifier for list items.
+    * Helps React optimize rendering.
+    * Should be stable and unique.
+
+25. **Why are keys important in React?**
+
+    * Helps React identify changed elements.
+    * Improves reconciliation efficiency.
+    * Avoids re-rendering unchanged items.
+
+26. **What is reconciliation in React?**
+
+    * Process of updating DOM efficiently.
+    * Uses diffing algorithm.
+    * Minimizes actual DOM operations.
+
+27. **What are fragments in React?**
+
+    * Used to group multiple elements.
+    * Written as `<></>`.
+    * Prevents adding extra DOM nodes.
+
+28. **What are portals in React?**
+
+    * Renders children into a DOM node outside parent hierarchy.
+    * Useful for modals, tooltips.
+    * Created using `ReactDOM.createPortal()`.
+
+29. **What are higher-order components (HOC)?**
+
+    * Function that takes a component and returns a new one.
+    * Used for reusing logic.
+    * Example: authentication wrappers.
+
+30. **What is the difference between HOC and Hooks?**
+
+    * HOC → wraps components.
+    * Hooks → reuse logic inside components.
+    * Hooks are cleaner and modern approach.
+
+31. **What are lifecycle methods in React class components?**
+
+    * Mounting (constructor, componentDidMount).
+    * Updating (componentDidUpdate).
+    * Unmounting (componentWillUnmount).
+
+32. **How does React handle events?**
+
+    * Uses camelCase event names.
+    * Event handlers are functions.
+    * Synthetic events for cross-browser compatibility.
+
+33. **What is prop drilling?**
+
+    * Passing props through multiple levels.
+    * Leads to unnecessary complexity.
+    * Avoided using `useContext` or state management libraries.
+
+34. **What is lazy loading in React?**
+
+    * Loading components only when needed.
+    * Improves performance.
+    * Implemented with `React.lazy()` and `Suspense`.
+
+35. **What is code splitting in React?**
+
+    * Splits bundle into smaller chunks.
+    * Loads only required code.
+    * Reduces initial load time.
+
+36. **What is React.StrictMode?**
+
+    * Wrapper component for highlighting issues.
+    * Checks for unsafe lifecycle methods.
+    * Does not affect production build.
+
+37. **What is context API in React?**
+
+    * Provides global state without prop drilling.
+    * Uses `createContext` and `useContext`.
+    * Good for theme, language, auth.
+
+38. **What is Redux in React?**
+
+    * State management library.
+    * Uses single global store.
+    * Works with actions and reducers.
+
+39. **What are reducers in Redux?**
+
+    * Pure functions.
+    * Take current state and action, return new state.
+    * Must not mutate state directly.
+
+40. **What are actions in Redux?**
+
+    * Objects describing state changes.
+    * Have `type` and optional `payload`.
+    * Dispatched to reducers.
+
+41. **What is Redux middleware?**
+
+    * Functions between dispatch and reducer.
+    * Used for async operations (API calls).
+    * Example: Redux Thunk, Redux Saga.
+
+42. **What is Redux Thunk?**
+
+    * Middleware for async actions.
+    * Allows dispatching functions.
+    * Commonly used for API requests.
+
+43. **What is Redux Saga?**
+
+    * Middleware for handling side effects.
+    * Uses generator functions.
+    * Better for complex async flows.
+
+44. **What is the difference between Redux and Context API?**
+
+    * Redux: powerful, structured, suitable for large apps.
+    * Context: simpler, built-in, suitable for small apps.
+    * Redux offers middlewares and dev tools.
+
+45. **What is server-side rendering (SSR) in React?**
+
+    * Rendering React components on server.
+    * Improves SEO and performance.
+    * Used in frameworks like Next.js.
+
+46. **What is hydration in React?**
+
+    * Process of attaching event listeners to server-rendered HTML.
+    * Converts static markup into interactive app.
+    * Happens in SSR apps.
+
+47. **What is Next.js?**
+
+    * React framework.
+    * Supports SSR, SSG, API routes.
+    * Improves SEO and performance.
+
+48. **What is Gatsby in React?**
+
+    * React-based static site generator.
+    * Focused on speed and SEO.
+    * Uses GraphQL for data fetching.
+
+49. **What is React Native?**
+
+    * Framework for building mobile apps using React.
+    * Supports Android and iOS.
+    * Uses native components instead of web components.
+
+50. **What are synthetic events in React?**
+
+    * Wrapper around browser events.
+    * Provides cross-browser compatibility.
+    * Pooled for performance optimization.
+
+51. **What are propTypes in React?**
+
+    * Type-checking for props.
+    * Helps catch bugs early.
+    * Uses `prop-types` package.
+
+52. **What is defaultProps in React?**
+
+    * Defines default values for props.
+    * Prevents `undefined` issues.
+    * Useful for optional props.
+
+53. **What is an error boundary in React?**
+
+    * Component that catches JavaScript errors.
+    * Prevents crashing of entire app.
+    * Uses `componentDidCatch` lifecycle.
+
+54. **What is React DevTools?**
+
+    * Browser extension for debugging React apps.
+    * Inspect component hierarchy and props/state.
+    * Available in Chrome and Firefox.
+
+55. **What is forwardRef in React?**
+
+    * Passes ref from parent to child component.
+    * Useful for accessing DOM nodes.
+    * Created with `React.forwardRef()`.
+
+56. **What is React Suspense?**
+
+    * Handles lazy-loaded components.
+    * Displays fallback UI while loading.
+    * Works with `React.lazy()`.
+
+57. **What are controlled vs uncontrolled inputs?**
+
+    * Controlled → value controlled by React state.
+    * Uncontrolled → value controlled by DOM.
+    * Controlled ensures React has full control.
+
+58. **What is the difference between React and Angular?**
+
+    * React is a library; Angular is a framework.
+    * React uses JSX; Angular uses TypeScript templates.
+    * React is more flexible, Angular is opinionated.
+
+59. **What is the difference between React and Vue?**
+
+    * React uses JSX, Vue uses templates.
+    * React ecosystem is larger.
+    * Vue is simpler for beginners.
+
+60. **What are stateless vs stateful components?**
+
+    * Stateless → functional, no local state.
+    * Stateful → manage local state.
+    * Hooks allow functional components to be stateful.
+
+61. **What is React Fiber?**
+
+    * React’s new reconciliation engine.
+    * Enables incremental rendering.
+    * Improves performance for large apps.
+
+62. **What is concurrent mode in React?**
+
+    * Allows rendering multiple tasks simultaneously.
+    * Improves responsiveness.
+    * Helps with smoother UI updates.
+
+63. **What are React keys best practices?**
+
+    * Use stable unique IDs.
+    * Avoid using array index.
+    * Keys should not change across renders.
+
+64. **What is strict equality check in React.memo?**
+
+    * Shallow compare of props.
+    * Prevents re-render if props unchanged.
+    * Optimizes performance.
+
+65. **What is diffing algorithm in React?**
+
+    * Compares old and new virtual DOM.
+    * Identifies minimal updates.
+    * Uses heuristics for efficiency.
+
+66. **What is batching in React?**
+
+    * Groups multiple state updates into one re-render.
+    * Improves performance.
+    * Happens automatically in React 18.
+
+67. **What is React DOM?**
+
+    * Package for rendering React in browser DOM.
+    * Provides `ReactDOM.render()` and `createRoot()`.
+    * Separate from core React.
+
+68. **What is React Fiber priority levels?**
+
+    * Assigns priority to tasks.
+    * High priority → urgent updates.
+    * Low priority → background tasks.
+
+69. **What is controlled form in React?**
+
+    * Form data controlled by component state.
+    * Provides full control of validation.
+    * Recommended approach.
+
+70. **What are pure components in React?**
+
+    * Components that prevent unnecessary renders.
+    * Implement `shouldComponentUpdate`.
+    * Functional equivalent is `React.memo`.
+
+71. **What is reconciliation strategy in React?**
+
+    * Tree diffing.
+    * Component diffing.
+    * Element diffing.
+
+72. **What are stateless functional components benefits?**
+
+    * Easier to read and test.
+    * Perform better (before hooks).
+    * Encourage reusability.
+
+73. **What is component composition?**
+
+    * Building UI by combining smaller components.
+    * Promotes reusability.
+    * Preferred over inheritance.
+
+74. **What is React hydration warning?**
+
+    * Mismatch between server HTML and client render.
+    * Happens in SSR apps.
+    * Fixed by ensuring consistent output.
+
+75. **What are suspense boundaries?**
+
+    * Divide app into loading boundaries.
+    * Show fallback UI per boundary.
+    * Improves user experience.
+
+76. **What is lazy initialization in useState?**
+
+    * Initialize state with a function.
+    * Function runs only once.
+    * Optimizes performance.
+
+77. **What is cleanup function in useEffect?**
+
+    * Returned function inside `useEffect`.
+    * Runs before component unmounts.
+    * Used for unsubscribing or clearing timers.
+
+78. **What is strict mode double rendering?**
+
+    * In development, React renders components twice.
+    * Helps detect side effects.
+    * Only affects dev environment.
+
+79. **What are React controlled checkboxes?**
+
+    * Checked state stored in component.
+    * Controlled via state updates.
+    * Useful for form handling.
+
+80. **What is React profiler?**
+
+    * Tool to measure rendering performance.
+    * Available in React DevTools.
+    * Helps identify bottlenecks.
+
+81. **What is the difference between useEffect and useLayoutEffect?**
+
+    * `useEffect` runs after painting.
+    * `useLayoutEffect` runs synchronously after DOM updates.
+    * `useLayoutEffect` blocks painting until execution.
+
+82. **What is useImperativeHandle hook?**
+
+    * Customizes ref handling.
+    * Works with `forwardRef`.
+    * Exposes imperative methods to parent.
+
+83. **What is shallow rendering in testing React?**
+
+    * Renders component without children.
+    * Used for unit testing.
+    * Provided by Enzyme.
+
+84. **What is Jest in React?**
+
+    * JavaScript testing framework.
+    * Provides assertions and mocks.
+    * Often used with React Testing Library.
+
+85. **What is React Testing Library?**
+
+    * Lightweight testing library.
+    * Focuses on user behavior.
+    * Works well with Jest.
+
+86. **What is snapshot testing in React?**
+
+    * Captures component output.
+    * Compares with saved snapshot.
+    * Detects unintended changes.
+
+87. **What is enzyme in React testing?**
+
+    * Testing utility for React.
+    * Provides shallow, mount, render APIs.
+    * Useful for unit/integration testing.
+
+88. **What is act() in testing React?**
+
+    * Helper function in testing.
+    * Ensures all updates are processed.
+    * Prevents inconsistent test results.
+
+89. **What is the difference between mount and shallow in Enzyme?**
+
+    * `shallow` renders component only.
+    * `mount` renders component + children.
+    * `mount` is closer to real DOM.
+
+90. **What are mock functions in Jest?**
+
+    * Simulated functions.
+    * Used for testing dependencies.
+    * Verify calls and arguments.
+
+91. **What are environment variables in React?**
+
+    * Store config values.
+    * Start with `REACT_APP_`.
+    * Loaded via `.env` files.
+
+92. **What is process.env in React?**
+
+    * Object containing environment variables.
+    * Accessed during build time.
+    * Useful for API keys.
+
+93. **What is tree shaking in React?**
+
+    * Removing unused code.
+    * Done by bundlers like Webpack.
+    * Reduces bundle size.
+
+94. **What is Hot Module Replacement (HMR)?**
+
+    * Updates modules without full reload.
+    * Speeds up development.
+    * Provided by webpack-dev-server.
+
+95. **What is webpack in React?**
+
+    * Module bundler.
+    * Converts code into optimized bundles.
+    * Supports loaders and plugins.
+
+96. **What is Babel in React?**
+
+    * JavaScript compiler.
+    * Transpiles JSX to JavaScript.
+    * Ensures compatibility across browsers.
+
+97. **What are React build optimizations?**
+
+    * Minification and compression.
+    * Code splitting.
+    * Tree shaking.
+
+98. **What is service worker in React?**
+
+    * Script running in background.
+    * Enables offline support.
+    * Used in PWA apps.
+
+99. **What is a PWA in React?**
+
+    * Progressive Web App.
+    * Works offline and installs like native.
+    * Uses service workers and manifest.
+
+100. **What is the future of ReactJS?**
+     \* Focus on concurrent rendering.
+     \* More performance optimizations.
+     \* Strong ecosystem growth.
 
 
 <!-- 
