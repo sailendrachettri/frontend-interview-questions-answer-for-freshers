@@ -9,7 +9,7 @@ This repo contains the list of questions and answers commonly asked in interview
 
 ## Categories
 
-- ### [ReactJS]()
+- ### [ReactJS](https://github.com/sailendrachettri/interview-questions-answer/tree/main?tab=readme-ov-file#reactjs-1)
 - ### [.NET](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#netl)
 - ### [HyperText Markup Language(HTML)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#html)
 - ### [Cascading Style Sheets(CSS)](https://github.com/sailendrachettri/interview-questions-answer?tab=readme-ov-file#css)
@@ -629,9 +629,9 @@ This repo contains the list of questions and answers commonly asked in interview
     * Uses service workers and manifest.
 
 100. **What is the future of ReactJS?**
-     \* Focus on concurrent rendering.
-     \* More performance optimizations.
-     \* Strong ecosystem growth.
+   * Focus on concurrent rendering.
+   * More performance optimizations.
+   * Strong ecosystem growth.
 
 
 <!-- 
