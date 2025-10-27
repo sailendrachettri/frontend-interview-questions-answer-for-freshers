@@ -680,6 +680,8 @@ _____   ____ _______   _   _ ______ _______
    * It is software design pattern
    * It allows use to develop loosely coupled application.
 
+5. **Which runtime is used by .NET Core?**
+    * CoreCLR (Core Common Language Runtime)
 <!-- 
   _    _ _______ __  __ _      
  | |  | |__   __|  \/  | |     
